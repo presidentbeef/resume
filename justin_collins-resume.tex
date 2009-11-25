@@ -1,0 +1,95 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, urlcolor=blue}
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf Justin S. Collins}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+ \moveleft.5\hoffset\centerline{justin@presidentbeef.com}
+% \moveleft.5\hoffset\centerline{3676 Mentone Ave. Apt 2}
+% \moveleft.5\hoffset\centerline{Los Angeles, CA 90034}
+% \moveleft.5\hoffset\centerline{(310) 895-1196}
+
+
+\begin{resume}
+ 
+\section{OBJECTIVE}  A summer research internship position, part-time position, or freelance Ruby programming.
+
+\section{EDUCATION} {\sl PhD,} Computer Science \\
+                      % \sl will be bold italic in New Century Schoolbook (or
+	              % any postscript font) and just slanted in
+		      %	Computer Modern (default) font
+                UCLA, Los Angeles, CA, 
+                Expected 2011.
+
+		{\sl Bachelor of Science,} Computer Science \\
+                      % \sl will be bold italic in New Century Schoolbook (or
+	              % any postscript font) and just slanted in
+		      %	Computer Modern (default) font
+                Seattle University, Seattle, WA, 
+                2006.
+
+\section{SKILLS} {\sl Languages:} Ruby, Java, Neko, PHP, C++\\
+		%{\sl Applications:} Apache, Qualnet, Git, Subversion\\
+		{\sl Frameworks/Libraries:} 
+			\href{http://mina.apache.org/}{Apache MINA},
+			\href{http://www.sinatrarb.com/}{Sinatra}, 
+			\href{http://treetop.rubyforge.org/}{TreeTop},
+			\href{http://rubyeventmachine.com/}{EventMachine}
+ 
+\section{EXPERIENCE}
+		{\sl Graduate Student Researcher} \hfill July 2007 - Present \\
+                UCLA, \href{http://msl.cs.ucla.edu}{Mobile Systems Lab}, Los Angeles, CA
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                \item Researching application development for mobile ad-hoc networks
+                \end{itemize}
+
+		{\sl Consultant} \hfill November 2008 - November 2009 \\
+		Irell \& Manella LLP, Los Angeles, CA
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                \item Reviewed and analyzed prior art.
+                \end{itemize}
+
+		{\sl Network Administrator} \hfill May 2005 - August 2006 \\
+                Klir Technologies, Seattle, WA 
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                \item Network administrator for office network
+		\item Responsible for all desktops, laptops, office servers, email and VoIP systems
+		\item Programmed several internal reporting scripts using PHP and MySQL
+		\item Developed the previous Klir.com website using PHP, Javascript
+                \end{itemize}
+
+		{\sl Helpdesk Specialist} \hfill November 2002 - June 2005 \\
+                Seattle University School of Law, Seattle, WA 
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                \item Troubleshooting of software and hardware issues for staff, faculty and students
+		\item Parts replacement on desktops and laptops
+		\item Development of a web-based internal ticketing system using Ruby and MySQL
+                \end{itemize}
+
+\section{PUBLICATIONS}
+		\href{http://cs.ucla.edu/~collins/documents/Justin_Collins-WICON08.pdf}{``Programming in Mobile Ad Hoc Networks.''} Justin Collins and Rajive Bagrodia. \\
+		{\it Proc. of the Fourth International Wireless Internet Conference} (WICON 2008)
+
+		\href{http://cs.ucla.edu/~collins/documents/Joslin_Collins-Greedy_Transformations_of_Search_Spaces.pdf}{``Greedy transformation of evolutionary algorithm search spaces for scheduling problems.''} David Joslin and Justin Collins.\\
+		{\it IEEE Congress on Evolutionary Computation} (CEC 2007)
+
+		\href{http://cs.ucla.edu/~collins/documents/Collins_Joslin-GECCO06-abstract.pdf}{``Improving genetic algorithm performance with intelligent mappings from chromosomes to solutions.''} Justin Collins and David Joslin. \\
+		{\it Proc. of the 8th Annual Conference on Genetic and Evolutionary Computation} (GECCO 2006)
+
+\section{EXTRA-CURRICULAR \\ ACTIVITIES}             
+            Open Source projects: \href{http://github.com/presidentbeef}{github.com/presidentbeef}\\
+	    Member of the \href{http://csgsc.cs.ucla.edu/}{Computer Science Graduate Student Committee}, UCLA \\
+            {\it President}, SUACM, 2005-2006
+
+\end{resume}
+\end{document}
