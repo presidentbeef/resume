@@ -1,119 +1,111 @@
 % LaTeX resume using res.cls
 \documentclass[margin]{res}
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
-%\usepackage{newcent}   % uses new century schoolbook postscript font 
-\usepackage{hyperref}
-\hypersetup{colorlinks=true, urlcolor=blue}
-\setlength{\textwidth}{5.1in} % set width of text portion
+	%\usepackage{newcent}   % uses new century schoolbook postscript font 
+	\usepackage{hyperref}
+	\hypersetup{colorlinks=true, urlcolor=blue}
+	\setlength{\textwidth}{5.1in} % set width of text portion
 
-\begin{document}
+	\begin{document}
 
-% Center the name over the entire width of resume:
- \moveleft.5\hoffset\centerline{\large\bf Justin S. Collins}
-% Draw a horizontal line the whole width of resume:
- \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
-% address begins here
-% Again, the address lines must be centered over entire width of resume:
- \moveleft.5\hoffset\centerline{justin@presidentbeef.com}
- \moveleft.5\hoffset\centerline{3676 Mentone Ave. Apt 2}
- \moveleft.5\hoffset\centerline{Los Angeles, CA 90034}
- \moveleft.5\hoffset\centerline{(310) 895-1196}
+	% Center the name over the entire width of resume:
+	\moveleft.5\hoffset\centerline{\large\bf Justin S. Collins}
+	% Draw a horizontal line the whole width of resume:
+	\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+	% address begins here
+	% Again, the address lines must be centered over entire width of resume:
+	\moveleft.5\hoffset\centerline{justin@presidentbeef.com}
+	\moveleft.5\hoffset\centerline{3676 Mentone Ave. Apt 2}
+	\moveleft.5\hoffset\centerline{Los Angeles, CA 90034}
+	\moveleft.5\hoffset\centerline{(310) 895-1196}
 
 
-\begin{resume}
+	\begin{resume}
 
-\section{EDUCATION} {\sl PhD,} Computer Science, emphasis in Mobile Systems \\
-                      % \sl will be bold italic in New Century Schoolbook (or
-	              % any postscript font) and just slanted in
-		      %	Computer Modern (default) font
-                UCLA, Los Angeles, CA, 
-                Expected 2012.
+	\section{EDUCATION} {\sl PhD,} Computer Science, emphasis in Mobile Systems \\
+		UCLA, Los Angeles, CA, 
+		Expected 2012.
 
-		{\sl Master of Science,} Computer Science \\
-                      % \sl will be bold italic in New Century Schoolbook (or
-	              % any postscript font) and just slanted in
-		      %	Computer Modern (default) font
-                UCLA, Los Angeles, CA, 
-                2009.
+{\sl Master of Science,} Computer Science \\
+		UCLA, Los Angeles, CA, 
+		2009.
 
-		{\sl Bachelor of Science,} Computer Science \\
-                      % \sl will be bold italic in New Century Schoolbook (or
-	              % any postscript font) and just slanted in
-		      %	Computer Modern (default) font
-                Seattle University, Seattle, WA, 
-                2006.
+{\sl Bachelor of Science,} Computer Science \\
+		Seattle University, Seattle, WA, 
+		2006.
 
-\section{SKILLS} {\sl Languages:}
-			 
+		\section{SKILLS} {\sl Languages:}
+
 		\begin{itemize}  \itemsep -2pt %reduce space between items
 		\item Ruby - websites, system scripts, everyday tasks
 		\item Java - mobile communication libraries
 		\item PHP - websites, database reporting scripts
 		\item C/C++ - modifications to Qualnet, classwork
 		\item Python - classwork
-                \end{itemize}
-		{\sl Operating Systems:} Linux, Microsoft Windows, Android\\
-		{\sl Applications:} Qualnet, Git, Subversion
- 
+		\end{itemize}
+
+{\sl Operating Systems:} Linux, Microsoft Windows, Android\\
+{\sl Applications:} Qualnet, Git, Subversion
+
 \section{EXPERIENCE}
 
-		{\sl Graduate Student Researcher} \hfill \textit{July 2007 - Present} \\
-                UCLA, \href{http://msl.cs.ucla.edu}{Mobile Systems Lab}, Los Angeles, CA
+{\sl Graduate Student Researcher} \hfill \textit{July 2007 - Present} \\
+		UCLA, \href{http://msl.cs.ucla.edu}{Mobile Systems Lab}, Los Angeles, CA
 		\begin{itemize}  \itemsep -2pt %reduce space between items
 		\item Researching application development for mobile ad-hoc networks, focusing on the challenges of mobility and the wireless channel
 		\item Published research surveying the current state of programming in mobile networks
 		\item Performed quantitative study of mobile networks and routing protocols using Qualnet
 		\item Responsible for managing lab computer network, servers, and resources
-                \end{itemize}
+		\end{itemize}
 
-		{\sl Consultant} \hfill \textit{November 2008 - November 2009} \\
+{\sl Consultant} \hfill \textit{November 2008 - November 2009} \\
 		Irell \& Manella LLP on behalf of Wisconson Alumni Research Foundation, Los Angeles, CA
-                 \begin{itemize}  \itemsep -2pt %reduce space between items
-                \item Analyzed published papers and theses related to processor design, especially those involving branching and data prediction
+		\begin{itemize}  \itemsep -2pt %reduce space between items
+		\item Analyzed published papers and theses related to processor design, especially those involving branching and data prediction
 		\item Compared prior art to patent claims concerning data load prediction in processors capable of executing instructions out of order
-                \end{itemize}
+		\end{itemize}
 
-		{\sl Technician} \hfill \textit{May 2007 - July 2007} \\
+{\sl Technician} \hfill \textit{May 2007 - July 2007} \\
 		PC Club, Los Angeles, CA
-                 \begin{itemize}  \itemsep -2pt %reduce space between items
-                \item Software and hardware troubleshooting and repair of customer desktops
+		\begin{itemize}  \itemsep -2pt %reduce space between items
+		\item Software and hardware troubleshooting and repair of customer desktops
 		\item Provided customer service in-store and over the phone
 		\item Built custom desktops for customer orders
-                \item Recommended and sold computer parts and accessories to customers
-                \end{itemize}
+		\item Recommended and sold computer parts and accessories to customers
+		\end{itemize}
 
-		{\sl System Administrator} \hfill \textit{May 2005 - March 2007} \\
-                Klir Technologies, Seattle, WA 
+{\sl System Administrator} \hfill \textit{May 2005 - March 2007} \\
+		Klir Technologies, Seattle, WA 
 		\begin{itemize}  \itemsep -2pt %reduce space between items
 		\item Responsible for all desktops, laptops, office servers, backup, and VoIP systems
 		\item Managed user, email, and phone accounts, as well as office software
 		\item Designed and implemented the public-facing company website in PHP and HTML
 		\item Developed reporting tools for the financial department using PHP and MySQL
-                \end{itemize}
+		\end{itemize}
 
-		{\sl Helpdesk Specialist} \hfill \textit{November 2002 - June 2005} \\
-                Seattle University School of Law, Seattle, WA 
+{\sl Helpdesk Specialist} \hfill \textit{November 2002 - June 2005} \\
+		Seattle University School of Law, Seattle, WA 
 		\begin{itemize}  \itemsep -2pt %reduce space between items
 		\item Troubleshooting of software and hardware issues for staff, faculty and student computers. Provided classroom technology support
 		\item Performed parts replacements on desktops and laptops, including motherboards and processors
 		\item Developed new internal ticketing system using Ruby and MySQL for tracking help tickets, laptops, and part orders
 		\item Received special recognition from the dean for excellent customer service
-                \end{itemize}
+		\end{itemize}
 
-\section{PUBLICATIONS}
+		\section{PUBLICATIONS}
 		\href{http://cs.ucla.edu/~collins/documents/Justin_Collins-WICON08.pdf}{``Programming in Mobile Ad Hoc Networks.''} Justin Collins and Rajive Bagrodia. \\
-		{\it Proc. of the Fourth International Wireless Internet Conference} (WICON 2008)
+{\it Proc. of the Fourth International Wireless Internet Conference} (WICON 2008)
 
-		\href{http://cs.ucla.edu/~collins/documents/Joslin_Collins-Greedy_Transformations_of_Search_Spaces.pdf}{``Greedy transformation of evolutionary algorithm search spaces for scheduling problems.''} David Joslin and Justin Collins.\\
-		{\it IEEE Congress on Evolutionary Computation} (CEC 2007)
+\href{http://cs.ucla.edu/~collins/documents/Joslin_Collins-Greedy_Transformations_of_Search_Spaces.pdf}{``Greedy transformation of evolutionary algorithm search spaces for scheduling problems.''} David Joslin and Justin Collins.\\
+{\it IEEE Congress on Evolutionary Computation} (CEC 2007)
 
-		\href{http://cs.ucla.edu/~collins/documents/Collins_Joslin-GECCO06-abstract.pdf}{``Improving genetic algorithm performance with intelligent mappings from chromosomes to solutions.''} Justin Collins and David Joslin. \\
-		{\it Proc. of the 8th Annual Conference on Genetic and Evolutionary Computation} (GECCO 2006)
+\href{http://cs.ucla.edu/~collins/documents/Collins_Joslin-GECCO06-abstract.pdf}{``Improving genetic algorithm performance with intelligent mappings from chromosomes to solutions.''} Justin Collins and David Joslin. \\
+{\it Proc. of the 8th Annual Conference on Genetic and Evolutionary Computation} (GECCO 2006)
 
 \section{EXTRA-CURRICULAR \\ ACTIVITIES}             
-            Open Source projects: \href{http://github.com/presidentbeef}{github.com/presidentbeef}\\
-	    Member of the \href{http://csgsc.cs.ucla.edu/}{Computer Science Graduate Student Committee}, UCLA \\
-            {\it President}, SUACM, 2005-2006
+Open Source projects: \href{http://github.com/presidentbeef}{github.com/presidentbeef}\\
+			 Member of the \href{http://csgsc.cs.ucla.edu/}{Computer Science Graduate Student Committee}, UCLA \\
+{\it President}, SUACM, 2005-2006
 
 \end{resume}
 \end{document}
